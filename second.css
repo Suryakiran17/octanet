@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans','Arial','sana-serif';
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://th.bing.com/th/id/R.6f895f1b0080c8bb773fae5dd7b7a131?rik=Gdalp%2f4XFtac7A&riu=http%3a%2f%2fcdn.playbuzz.com%2fcdn%2fd1a2d4da-7a96-46d3-9f32-ca17a2fc92ac%2f7f7b65d8-5a28-40b6-8ad5-520f88e796ec.jpg&ehk=jv9WkJHrOlYZAS2jLT1Wz6c4BlFRfxIkidUiQMeETLI%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 14, 9, 0.295);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: center;
+    width: 100%;
+    padding: 0 10vh;
+    color: #ac0deb;
+    top: 15%;
+}
+header {
+    
+    color: #b411dd;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #0a0909;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
